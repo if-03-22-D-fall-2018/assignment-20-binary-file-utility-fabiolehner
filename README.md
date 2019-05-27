@@ -28,14 +28,14 @@ Age: 43
 Stored successfully
 Peters-MacBook-Pro-2:binary-file-utility peter$ ./add_student
 First Name: Dietmar
-Last Name: Steiner
+Last Name: Stein
 Age: 35
 Stored successfully
 Peters-MacBook-Pro-2:binary-file-utility peter$ ./list_all_students
 Id         First Name  Last Name  Age
 0000000001 Peter       Bauer      42
 0000000002 Franz       Auernig    43
-0000000003 Dietmar     Steiner    35
+0000000003 Dietmar     Stein      35
 Peters-MacBook-Pro-2:binary-file-utility peter$ ./display_student 2
 First Name: Franz
 Last Name: Auernig
