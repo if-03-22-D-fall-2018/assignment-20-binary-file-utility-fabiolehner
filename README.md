@@ -1,6 +1,7 @@
 # Binary File Utilities
 ## General Description
-You are to write a number of small unix tools which maintain a binary file called `students.dat` holding students data. The tools shall
+You are to write a number of small unix tools which maintain a binary file called `students.dat` holding students data. The following tools shall be implemented:
+
 - `init` initialize a students file
 - `new_student` add new student data which is entered by the user to the file
 - `list_all_students` list all student 
