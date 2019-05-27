@@ -42,6 +42,9 @@ First Name: Franz
 Last Name: Auernig
 Age: 43
 ```
+## File Layout
+The resulting file after doing the last example would look like this (of course, not visible in an editor in this way). Take care that every record for one student has exactly the same length. Also note that the sizes of the fields `first_name` and `last_name` are 12 bytes which is a bit short.
+![File Layout](FileLayout.001.png)
 
 ## Init
 `init` creates a file `student.dat` and writes the integer number 1 at the beginning of the file. This number is necessary to keep track of the id to be assigned to the next student which is stored to the data file
