@@ -56,5 +56,6 @@ Age: 43
 `display_student` prints one student's data into the terminal. The id of the student to be printed is taken from the command line argument. Take care that you shall use the fact that every student record has the same length. Therefore you need not read every record until you reach to the record requested. Moreover you can directly jump to the correct position via `lseek`.
 
 ## Hints
-- You may assume that the student with the id `i` is at the `i`th place in the file
-- Getting the command line argument is done via the `argc` and `argv` parameters of the `main` function
+- You may assume that the student with the id `i` is at the `i`th place in the file.
+- Getting the command line argument is done via the `int argc` and `char* argv[]` parameters of the `main` function.
+- Build each tool with the standard options `-Wall -pedantic -std=c99`.
